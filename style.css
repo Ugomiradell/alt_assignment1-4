@@ -1,0 +1,75 @@
+
+body {
+  line-height: 5%;
+  background-color: #56300a;
+}
+
+h1 {
+  background-color: #3b2106;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  border-radius: 38px;
+  width: 90%;
+  margin-left: 5%;
+  height: 80px;
+}
+
+.Assignment1 {
+  background-color: #d6720e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  border-radius: 28px;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.Assignment2 {
+  background-color: #82480f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  border-radius: 28px;
+  width: 60%;
+  margin-left: 35%;
+}
+
+.Assignment3 {
+  background-color: #be7841;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  border-radius: 28px;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.Assignment4 {
+  background-color: #743203;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  border-radius: 28px;
+  width: 60%;
+  margin-left: 35%;
+}
+
+a {
+  margin-left: 2%;
+  text-decoration: none;
+  font-weight: 800;
+  color: #1d1003;
+}
+
+.Assignment1,
+.Assignment2,
+.Assignment3,
+.Assignment4 {
+    margin-bottom: -50px;
+}
