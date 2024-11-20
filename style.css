@@ -5,12 +5,13 @@ body {
 }
 
 h1 {
-  background-color: #3b2106;
+  background-color: #361d03;
+  box-shadow: 0 0 90px #361d03, 0 0 30px #361d03;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 5%;
-  border-radius: 38px;
+  border-radius: 30px;
   width: 90%;
   margin-left: 5%;
   height: 80px;
@@ -60,6 +61,17 @@ h1 {
   margin-left: 35%;
 }
 
+.main {
+  background-color: #361d03;
+  border: 8px solid #361d03;
+  width: 90%;
+  margin-top: 6%;
+  margin-left: 5%;
+  height: 350px;
+  border-radius: 180px;
+  box-shadow: 0 0 90px #361d03, 0 0 30px #361d03;
+}
+
 a {
   margin-left: 2%;
   text-decoration: none;
@@ -71,5 +83,54 @@ a {
 .Assignment2,
 .Assignment3,
 .Assignment4 {
-    margin-bottom: -50px;
+  display: flex;
+  margin-bottom: -50px;
+}
+
+.WDT2 {
+  display: none;
+}
+
+@media (max-width: 500px) {
+
+  header {
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  .main {
+    height: 350px;
+    margin-left: 3%;
+  }
+
+  .Assignment1 {
+    width: 73%;
+    margin-top: 14%;
+    margin-left: 7%;
+    
+  }
+
+  .Assignment2,
+  .Assignment3,
+  .Assignment4 {
+    margin-top: 17%;
+    width: 73%;
+  }
+
+  .Assignment2,
+  .Assignment4 {
+    margin-left: 18%;
+  }
+
+  .WDT1 {
+    display: none;
+  }
+  .WDT2 {
+    display: inline;
+  }
+
 }
