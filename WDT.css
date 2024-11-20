@@ -123,10 +123,61 @@ button {
   border-radius: 2px;
 }
 
+.section1p-2 {
+  display: none;
+}
+
+.lastp2 {
+  display: none;
+}
+
 @media (max-width: 500px) {
+
   .main {
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
+  }
+
+  .section1 {
+    width: fit-content;
+  }
+
+  .section1p-1 {
+    display: none;
+  }
+
+  .section1 img {
+    width: 25%;
+  }
+
+  .section1 h1 {
+    font-size: x-large;
+  }
+
+  .section1p-2 {
+    font-size: xx-small;
+  }
+
+  .lastp1 {
+    display: none;
+  }
+
+  button {
+    margin-bottom: 5%;
+  }
+  
+  .lastp2 {
+    display: block;
+    width: fit-content;
+    font-size: smaller;
+    margin-left: 2%;
+    margin-bottom: 10%;
+    line-height: 20px;
+  }
+
+  .line1 input {
+    width: 97%;
   }
 
   .line1,
@@ -136,8 +187,12 @@ button {
   }
 
   .line2 select {
-    width: 83%;
+    width: 99%;
     margin-top: 3%;
+  }
+
+  .line2 input {
+    width: 99%;
   }
 
   .line3 input {
