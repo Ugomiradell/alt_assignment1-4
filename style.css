@@ -100,7 +100,7 @@ a {
   }
 
   header h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .main {
@@ -127,7 +127,7 @@ a {
   .Assignment2,
   .Assignment3,
   .Assignment4 {
-    margin-top: 17%;
+    margin-top: 20%;
     width: 73%;
   }
 
@@ -143,5 +143,7 @@ a {
   .WDT2 {
     display: inline;
   }
+
+  
 
 }
