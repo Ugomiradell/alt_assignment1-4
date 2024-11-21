@@ -1,5 +1,6 @@
 
 body {
+
   line-height: 5%;
   background-color: #56300a;
 }
@@ -99,19 +100,28 @@ a {
   }
 
   header h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .main {
     height: 350px;
     margin-left: 3%;
+    margin-top: 15%;
   }
 
-  .Assignment1 {
+  h2 {
+    font-size: 20px;
+  }
+
+  a {
+    color: rgb(77, 22, 2);
+  }
+
+  .Assignment1,
+  .Assignment3 {
     width: 73%;
     margin-top: 14%;
-    margin-left: 7%;
-    
+    margin-left: 9%;
   }
 
   .Assignment2,
@@ -123,12 +133,13 @@ a {
 
   .Assignment2,
   .Assignment4 {
-    margin-left: 18%;
+    margin-left: 15%;
   }
 
   .WDT1 {
     display: none;
   }
+
   .WDT2 {
     display: inline;
   }
